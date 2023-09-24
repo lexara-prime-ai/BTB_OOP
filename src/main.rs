@@ -52,6 +52,7 @@ fn ignition_pressurize(vehicle: &dyn MultiTerrain) {
 }
 
 fn main() {
+    println!("****Console Output****");
     let hover_craft: HoverCraft = HoverCraft;
     ignition_pressurize(&hover_craft);
 }
